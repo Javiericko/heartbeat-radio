@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+
+{% block content %}
+    <head>
+        <title>Heartbeat Radio</title>
+    </head>
+
+    <!-- Load plotly-dash -->
+    {%load plotly_dash%}
+
+    <body class="text-center">
+        
+        <div class="plotly_class name='HeartbeatRadio' %} card" style="height: 100%; width: 100%">
+        {%plotly_app name="HeartbeatRadio" ratio=1 %}
+        </div>
+
+        {{ plot1 | safe }}
+        
+    </body>
+</html>
+{% endblock %}

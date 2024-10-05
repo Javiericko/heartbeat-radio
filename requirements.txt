@@ -1,0 +1,7 @@
+django
+djangorestframework
+dash
+django_plotly_dash
+dash-bootstrap-components
+requests
+pandas
